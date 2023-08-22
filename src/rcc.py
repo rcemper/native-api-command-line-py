@@ -1,4 +1,4 @@
-import irisnative
+import iris
 
 def cmd(what,default):
     prompt=">>> "+what+" ["+default+"]: "
@@ -14,8 +14,8 @@ nspc = cmd("namespace","USER")
 user = cmd("username","_SYSTEM")
 pwd  = cmd("password","SYS")
 # get connected
-conn = irisnative.createConnection(ip,int(port),nspc,user,pwd)
-iris = irisnative.createIris(conn)
+conn = iris.createConnection(ip,int(port),nspc,user,pwd)
+iris = iris.createIris(conn)
 
 # talk to NativeAPI Extension
 def act(what):
