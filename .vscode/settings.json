@@ -1,0 +1,10 @@
+{
+    "objectscript.conn": {
+        "ns": "USER",
+        "docker-compose": {
+            "service": "iris",
+            "internalPort": 52773
+        },
+        "active": true
+    }
+}
