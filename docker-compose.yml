@@ -4,6 +4,7 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
+    hostname: native-api-command-line-py  
     command: --ISCAgent false
     restart: always
     ports: 
