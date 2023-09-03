@@ -81,3 +81,5 @@ Thank you for trying the demo
 
 [Video](https://youtu.be/-rtJ0lNHuvk)
 
+[Demo Server SMP](https://nacl-py.demo.community.intersystems.com/csp/sys/UtilHome.csp)    
+[Demo Server Terminal](https://nacl-py.demo.community.intersystems.com/terminal/)
