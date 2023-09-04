@@ -1,10 +1,10 @@
 Class nacl.rcc [ Language = python ]
 {
 
-ClassMethod py()
+ClassMethod py() [ Language = python ]
 {
 import irisnative as iris
-
+# user input
 def cmd(what,default):
     prompt="\n>>> "+what+" ["+default+"]: "
     try:
