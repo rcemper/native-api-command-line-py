@@ -9,6 +9,7 @@
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.MultiD.GBL"/>
       <Resource Name="nacl.rcc.CLS"/>
+      <Resource Name="nacl.rccwt.CLS"/>    
     </Module>
   </Document>
 </Export>
