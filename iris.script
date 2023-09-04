@@ -3,5 +3,5 @@
     zn "USER"
     zpm "install webterminal"
     zpm "install nacl-server"
-    zpm "load /opt/irisbuild/ -v":1
+    zpm "load /opt/irisapp/ -v":1
     halt
