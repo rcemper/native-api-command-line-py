@@ -9,7 +9,7 @@
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.MultiD.GBL"/>
       <Resource Name="rcc.py"/>
-      <Resource Name="nacl.rcc.PKG"/>
+      <Resource Name="nacl.rcc.CLS"/>
     </Module>
   </Document>
 </Export>
