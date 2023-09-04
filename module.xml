@@ -8,7 +8,6 @@
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.MultiD.GBL"/>
-      <Resource Name="rcc.py"/>
       <Resource Name="nacl.rcc.CLS"/>
     </Module>
   </Document>
