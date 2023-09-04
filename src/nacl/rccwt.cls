@@ -1,6 +1,6 @@
 Class nacl.rccwt [ Language = python ]
 {
-/// this clas is a special hack tor work around for odd WebTerminal
+/// this class is a special hack to work around for odd WebTerminal
 /// 
 ClassMethod py(WT = 0) [ Language = python ]
 {
@@ -41,22 +41,22 @@ def act(what):
 
 inst=act("quit ##class(%SYS.System).GetInstanceName()")
 node=act("quit ##class(%SYS.System).GetNodeName()")
-print("\nConnected to Instance "+inst+" on Server "+node+"\n")
+print("\r\nConnected to Instance "+inst+" on Server "+node+"\n")
 
 # demo menue
-print("Select Demo to exercise")
-print(" 0 = free ObjectScript")
-print(" 1 = $ZV from Server")
-print(" 2 = Actual Time in Server")
-print(" 3 = TimeZone Offset of Server")
-print(" 4 = Server Architecture*Vendor*Model")
-print(" 5 = List Global in ZWRITE style")
-print(" * = Terminate demo")
+print("\rSelect Demo to exercise")
+print("\r 0 = free ObjectScript")
+print("\r 1 = $ZV from Server")
+print("\r 2 = Actual Time in Server")
+print("\r 3 = TimeZone Offset of Server")
+print("\r 4 = Server Architecture*Vendor*Model")
+print("\r 5 = List Global in ZWRITE style")
+print("\r * = Terminate demo")
 
 # show Global + Content
 def dzr(glob):
     res=act('q ##class(%Utility).FormatString(@$zr)')
-    print("\t",glob," = ",res)
+    print("\r\t",glob," = ",res)
     return
 # scan Global
 def gdemo(glob):
@@ -81,7 +81,7 @@ while True :
     try :
         demo=int(demo)
     except ValueError :
-        print("\tDemo '",demo,"' not implemented")
+        print("\r\tDemo '",demo,"' not implemented")
         continue   
     if (demo==0) :
         void=cmd("Your ObjectScript",' quit "?"')
@@ -101,11 +101,11 @@ while True :
     if (demo==5) :
         void=cmd("Your Global","^dc.MultiD")
         gdemo(void)
-        res="**** done ***"
+        res="\r\t**** done ***"
     print("\t",res)
     continue
 	# done
-print("\nThank you for trying the demo\n")
+print("\r\nThank you for trying the demo\n")
 iris.close()
 conn.close()
 }
