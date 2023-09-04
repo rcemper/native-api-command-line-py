@@ -1,7 +1,7 @@
 This is the Python client for IRIS NativeAPI Command Extension   
 It demonstrates using the extension without ObjectScript   
 
-For easy testing an IRIS instance with a demo Global and    
+For easy testing, an IRIS instance with a demo Global and    
 a pre-installed NativeAPI Command Line Extension is added. 
 ### Prerequisites    
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.    
@@ -76,6 +76,11 @@ Select Demo to exercise
 
 Thank you for trying the demo
 </pre></p>
+
+If you prefer to test it with **embedded Python** use   
+````
+docker-compose exec iris iris session iris "##class(nacl.rcc).py()"    
+````
 
 [Article in DC](https://community.intersystems.com/post/using-nativeapi-extension-python)
 
