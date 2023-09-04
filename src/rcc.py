@@ -1,4 +1,4 @@
-import iris
+import irisnative as iris
 
 def cmd(what,default):
     prompt=">>> "+what+" ["+default+"]: "
