@@ -89,6 +89,6 @@ docker-compose exec iris iris session iris "##class(nacl.rcc).py()"
 [Demo Server SMP](https://nacl-pywt.demo.community.intersystems.com/csp/sys/UtilHome.csp)    
 [Demo Server WebTerminal](https://nacl-pywt.demo.community.intersystems.com/terminal/)     
 ````
->>> do ##class(nacl.rccwt).py(1)    
+do ##class(nacl.wt).py()    
 ````
 
