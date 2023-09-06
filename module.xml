@@ -4,12 +4,12 @@
     <Module>
       <Name>nacl-py</Name>
 	  <Description>Use NativeAPI Extension from PY</Description> 
-      <Version>0.0.4</Version>
+      <Version>0.0.5</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.MultiD.GBL"/>
       <Resource Name="nacl.rcc.CLS"/>
-      <Resource Name="nacl.rccwt.CLS"/>    
+      <Resource Name="nacl.wt.CLS"/>    
     </Module>
   </Document>
 </Export>
