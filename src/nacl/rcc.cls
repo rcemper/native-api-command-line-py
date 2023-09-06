@@ -10,8 +10,9 @@ def cmd(what,default):
     try:
 	    ans=input(prompt)
     except:
-#   if (ans=="") :
-        ans=default
+    	ans=default
+    if (ans=="") :
+        ans=default  
     return ans
 
 # init connection
@@ -90,6 +91,7 @@ while True :
         void=act("kill cp")
     if (demo==5) :
         void=cmd("Your Global","^dc.MultiD")
+        print("\r")
         gdemo(void)
         res="**** done ***"
     print("\t",res)
@@ -99,4 +101,5 @@ print("\nThank you for trying the demo\n")
 iris.close()
 conn.close()
 }
+
 }
