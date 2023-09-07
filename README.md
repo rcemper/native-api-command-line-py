@@ -1,3 +1,5 @@
+[![objectscriptquality](https://github.com/rcemper/native-api-command-line-py/actions/workflows/objectscript-quality.yml/badge.svg)](https://github.com/rcemper/native-api-command-line-py/actions/workflows/objectscript-quality.yml)   
+
 This is the Python client for IRIS NativeAPI Command Extension   
 It demonstrates using the extension without ObjectScript   
 
