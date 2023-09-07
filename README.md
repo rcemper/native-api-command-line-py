@@ -6,7 +6,11 @@ It demonstrates using the extension without ObjectScript
 For easy testing, an IRIS instance with a demo Global and    
 a pre-installed NativeAPI Command Line Extension is added. 
 ### Prerequisites    
-Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.    
+Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.  
+If you want to use IPM installation make sure your IRIS instance    
+has **irisnative** installed as described in detail in [the related repo](https://github.com/intersystems/quickstarts-python/tree/master)  
+For Docker, this is already pre-loaded.   
+
 ### Installation   
 Clone/git pull the repo into any local directory  
 
