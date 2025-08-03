@@ -90,7 +90,8 @@ while True :
     continue
 	# done
 print("\nThank you for trying the demo\n")
-iris.close()
+db.close()
 conn.close()
+
 
 
