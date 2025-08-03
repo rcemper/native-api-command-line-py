@@ -19,14 +19,15 @@ iris = iris.createIris(conn)
 
 # talk to NativeAPI Extension
 def act(what):
-    ans=iris.function("","%ZX",what+" quit 0")
+## broken    ans=iris.function("","%ZX",what+" quit 0")
+    ans=db.classMethodValue("%ZX.nacl","x",what+" quit 0")
     return ans
 
 inst=act("quit ##class(%SYS.System).GetInstanceName()")
 node=act("quit ##class(%SYS.System).GetNodeName()")
 print("\nConnected to Instance "+inst+" on Server "+node+"\n")
 
-# demo menue
+# demo menu
 print("Select Demo to exercise")
 print(" 0 = free ObjectScript")
 print(" 1 = $ZV from Server")
@@ -91,3 +92,4 @@ while True :
 print("\nThank you for trying the demo\n")
 iris.close()
 conn.close()
+
