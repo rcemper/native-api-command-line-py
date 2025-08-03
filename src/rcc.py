@@ -15,11 +15,11 @@ user = cmd("username","_SYSTEM")
 pwd  = cmd("password","SYS")
 # get connected
 conn = iris.createConnection(ip,int(port),nspc,user,pwd)
-iris = iris.createIris(conn)
+db = iris.createIris(conn)
 
 # talk to NativeAPI Extension
 def act(what):
-## broken    ans=iris.function("","%ZX",what+" quit 0")
+## broken    ans=db.function("","%ZX",what+" quit 0")
     ans=db.classMethodValue("%ZX.nacl","x",what+" quit 0")
     return ans
 
@@ -92,4 +92,5 @@ while True :
 print("\nThank you for trying the demo\n")
 iris.close()
 conn.close()
+
 
