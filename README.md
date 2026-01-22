@@ -1,4 +1,5 @@
-[![objectscriptquality](https://github.com/rcemper/native-api-command-line-py/actions/workflows/objectscript-quality.yml/badge.svg)](https://github.com/rcemper/native-api-command-line-py/actions/workflows/objectscript-quality.yml)   
+<img src="https://community.intersystems.com/sites/default/files/inline/images/archived.gif" width=100></img>
+<b>&nbsp;no maintenance or update</b>  
 
 This is the Python client for IRIS NativeAPI Command Extension   
 It demonstrates using the extension without ObjectScript   
@@ -96,4 +97,5 @@ Testing from Broser terminal
 ````
 do ##class(nacl.wt).py()    
 ````
+
 
